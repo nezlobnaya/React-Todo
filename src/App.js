@@ -86,7 +86,7 @@ class App extends React.Component {
       <div className='App'>
        <h1>↓ Carpe Diem! ↓</h1>
           <div className='header'>
-            <TodoForm addItem={this.addItem} />
+            <TodoForm tasks={this.state.tasks} addItem={this.addItem} />
           </div>
       
         <TodoList 

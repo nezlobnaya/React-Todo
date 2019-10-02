@@ -45,11 +45,16 @@ h1 {
   margin-bottom: 3rem;
 }
 
+h2{
+  margin-left: 4rem;;
+}
+
 .tasks-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  width: 50%;
+  flex-direction: row;
+  width: 60%;
   margin: 0 auto;
 }
 .item {
@@ -88,7 +93,7 @@ form {
 form > input {
   background-color: #a8c72c;
   border: none;
-  padding: 6px 0;
+  padding: 6px 6px;
   font-size: 1rem;
   width: 100%;
   outline: 0;
@@ -114,7 +119,7 @@ button:hover {
 
 
 input::placeholder {
-  color: #e64944;
+  color: rgb(41, 40, 35);
   opacity: 1;
 }
 

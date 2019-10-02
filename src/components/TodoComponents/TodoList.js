@@ -5,10 +5,13 @@ import Todo from './Todo';
 import './Todo.css';
 
 const TodoList = props => {
+
+
+
     return ( 
         <div className='tasks-list'>
             <h2>To Do List ===></h2>
-         <div>
+         <div className='items-list'>
             {props.tasks.map(item => (
                 <Todo key={item.id} item={item} toggleItem={props.toggleItem}/>
             ))}
@@ -16,6 +19,7 @@ const TodoList = props => {
                 Clear Completed
             </button>
          </div>
+    
         </div>
      );
 }
