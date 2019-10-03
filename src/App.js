@@ -1,6 +1,7 @@
 import React from 'react';
 import TodoList from './components/TodoComponents/TodoList';
 import TodoForm from './components/TodoComponents/TodoForm';
+// import Search from './components/TodoComponents/Search';
 import './components/TodoComponents/Todo.css';
 
 const tasks =[{
@@ -73,12 +74,16 @@ class App extends React.Component {
     const newTask = {
       id: Date.now(),
       name: itemName,
-      purchased: false
+      completed: false
     }
     this.setState({
       tasks: [newTask, ...this.state.tasks]
     })
   }
+
+
+
+
 
   render() {
     console.log('rendering...')
@@ -86,9 +91,9 @@ class App extends React.Component {
       <div className='App'>
        <h1>↓ Carpe Diem! ↓</h1>
           <div className='header'>
-            <TodoForm tasks={this.state.tasks} addItem={this.addItem} />
+            <TodoForm  tasks={this.state.tasks} addItem={this.addItem}  />
           </div>
-      
+        {/* <Search tasks={this.state.tasks} /> */}
         <TodoList 
           tasks={this.state.tasks} 
           toggleItem={this.toggleItem} 

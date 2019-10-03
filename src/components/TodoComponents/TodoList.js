@@ -6,6 +6,7 @@ import './Todo.css';
 
 const TodoList = props => {
 
+ 
 
 
     return ( 
@@ -18,6 +19,7 @@ const TodoList = props => {
             <button className='clear-btn' onClick={props.clearCompleted}>
                 Clear Completed
             </button>
+            
          </div>
     
         </div>

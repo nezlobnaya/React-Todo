@@ -32,6 +32,9 @@ span {
   margin: 0 auto;
 }
 
+.App h1 {
+  box-shadow: 10px 10px 5px grey;
+}
 .header {
   display: flex;
   margin: 0 auto;
@@ -45,8 +48,9 @@ h1 {
   margin-bottom: 3rem;
 }
 
-h2{
-  margin-left: 4rem;;
+.tasks-list h2{
+  margin-left: 4rem;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .tasks-list {
@@ -108,6 +112,7 @@ button {
   color: rgb(44, 40, 40);
   font-size: 16px;
   padding: 6px 14px;
+  margin: 10px 10px;
   cursor: pointer;
   box-shadow: 10px 10px 5px grey;
 }

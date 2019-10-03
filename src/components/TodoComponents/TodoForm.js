@@ -10,7 +10,7 @@ class TodoForm extends React.Component {
   }
 
   handleChange = (event) => {
-      localStorage.setItem('myValueInLocalStorage', event.target.value)
+    //   localStorage.setItem('myValueInLocalStorage', event.target.value)
     this.setState({value: event.target.value})
   }
 
@@ -23,6 +23,10 @@ class TodoForm extends React.Component {
     })
   }
 
+
+
+
+
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
@@ -33,6 +37,9 @@ class TodoForm extends React.Component {
           onChange={this.handleChange}
         />
         <button>Add a task</button>
+{/* 
+            <input type="text" className="input" placeholder="Search..." />
+            <button onClick={this.handleSearch}>Search</button> */}
       </form>
     );
   }
