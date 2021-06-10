@@ -95,7 +95,7 @@ form {
 }
 
 form > input {
-  background-color: #a8c72c;
+  background-color: #c0eee9;
   border: none;
   padding: 6px 6px;
   font-size: 1rem;
@@ -107,7 +107,7 @@ form > input {
 
 
 button {
-  background-color: #56c515;
+  background-color: #8ddca5;
   border: none;
   color: rgb(44, 40, 40);
   font-size: 16px;
@@ -118,8 +118,8 @@ button {
 }
 
 button:hover {
-    background: #000;
-    color   : #FFF;
+    background: rgb(204, 228, 231);
+    color   : rgb(8, 8, 8);
   }
 
 
