@@ -1,21 +1,28 @@
 {
-  "name": "lambda-todo",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.10.1",
-    "react-dom": "^16.10.1",
-    "react-native-paper": "^2.16.0",
-    "react-scripts": "3.1.2"
-  },
+  "name": "todo-app-class-components",
+  "version": "1.0.0",
+  "description": "We're going to practice building a stateful class component with this project. Even though hooks are gaining popularity among react developers, class components are going to be around for a long time. It's imperative that you get use to class components, and feel comfortable working with class components since you'll most likely need to work with them if you are hired to work on a React app.",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nezlobnaya/React-Todo.git"
+  },
+  "author": "Vlad B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nezlobnaya/React-Todo/issues"
+  },
+  "homepage": "https://github.com/nezlobnaya/React-Todo#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^1.1.5"
   },
   "browserslist": {
     "production": [
